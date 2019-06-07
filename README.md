@@ -6,7 +6,7 @@
 [![npm status](http://img.shields.io/npm/v/spreadsheet-stream.svg)](https://www.npmjs.org/package/spreadsheet-stream)
 [![node](https://img.shields.io/node/v/spreadsheet-stream.svg)](https://www.npmjs.org/package/spreadsheet-stream)
 [![Travis build status](https://img.shields.io/travis/vweevers/spreadsheet-stream.svg?label=travis)](http://travis-ci.org/vweevers/spreadsheet-stream)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Greenkeeper badge](https://badges.greenkeeper.io/vweevers/spreadsheet-stream.svg)](https://greenkeeper.io/)
 
 ## Example
 
