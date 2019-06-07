@@ -1,0 +1,41 @@
+{
+  "name": "spreadsheet-stream",
+  "version": "0.0.0",
+  "description": "Semi-streaming XLS(X) / ODS / QPW (and more) parser",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && hallmark && node test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "duplexify": "github:vweevers/duplexify#fix-write-after-destroy",
+    "readable-stream": "~3.4.0",
+    "xlsx": "~0.14.3"
+  },
+  "devDependencies": {
+    "concat-stream": "^2.0.0",
+    "hallmark": "^0.1.0",
+    "standard": "^12.0.1",
+    "tape": "^4.10.2"
+  },
+  "keywords": [
+    "excel",
+    "ods",
+    "qpw",
+    "sheet",
+    "spreadsheet",
+    "stream",
+    "sylk",
+    "xls",
+    "xlsx"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": "vweevers/spreadsheet-stream",
+  "bugs": "https://github.com/vweevers/spreadsheet-stream/issues",
+  "homepage": "https://github.com/vweevers/spreadsheet-stream"
+}
