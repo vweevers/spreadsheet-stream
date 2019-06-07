@@ -1,6 +1,6 @@
 {
   "name": "spreadsheet-stream",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Semi-streaming XLS(X) / ODS / QPW (and more) parser",
   "license": "MIT",
   "author": "Vincent Weevers",
