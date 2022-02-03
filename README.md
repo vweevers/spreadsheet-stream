@@ -5,8 +5,8 @@
 
 [![npm status](http://img.shields.io/npm/v/spreadsheet-stream.svg)](https://www.npmjs.org/package/spreadsheet-stream)
 [![node](https://img.shields.io/node/v/spreadsheet-stream.svg)](https://www.npmjs.org/package/spreadsheet-stream)
-[![Travis build status](https://img.shields.io/travis/vweevers/spreadsheet-stream.svg?label=travis)](http://travis-ci.org/vweevers/spreadsheet-stream)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Test](https://img.shields.io/github/workflow/status/vweevers/spreadsheet-stream/Test?label=test)](https://github.com/vweevers/spreadsheet-stream/actions/workflows/test.yml)
+[![Standard](https://img.shields.io/badge/standard-informational?logo=javascript&logoColor=fff)](https://standardjs.com)
 
 ## Example
 
