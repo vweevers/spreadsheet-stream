@@ -11,9 +11,9 @@
     "index.js"
   ],
   "dependencies": {
-    "duplexify": "~4.1.0",
-    "readable-stream": "~3.4.0",
-    "xlsx": "~0.14.3"
+    "duplexify": "^4.1.0",
+    "readable-stream": "^3.4.0",
+    "xlsx": "^0.18.0"
   },
   "devDependencies": {
     "concat-stream": "^2.0.0",
