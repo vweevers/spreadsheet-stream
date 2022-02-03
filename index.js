@@ -25,9 +25,10 @@ module.exports = function (options) {
     },
     final (callback) {
       const buf = Buffer.concat(chunks, size)
+      let workbook
 
       try {
-        var workbook = xlsx.read(buf, { type: 'buffer' })
+        workbook = xlsx.read(buf, { type: 'buffer' })
       } catch (err) {
         return callback(err)
       }
