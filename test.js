@@ -10,7 +10,7 @@ test('basic', function (t) {
   const stream = sheet()
 
   stream.pipe(concat(function (data) {
-    t.same(data, [{ a: 0.3, c: -2 }, { a: 'a', b: 'b', c: 'c' }])
+    t.same(data, [{ a: 0.3, b: null, c: -2 }, { a: 'a', b: 'b', c: 'c' }])
   }))
 
   // Same test as excel-stream

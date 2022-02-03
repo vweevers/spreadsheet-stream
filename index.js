@@ -39,7 +39,7 @@ module.exports = function (options) {
         return callback(new Error('Sheet not found'))
       }
 
-      duplex.setReadable(xlsx.stream.to_json(sheet, { raw: true }))
+      duplex.setReadable(xlsx.stream.to_json(sheet, { raw: true, defval: null }))
       callback()
     }
   }))
